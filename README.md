@@ -1,4 +1,5 @@
 # My Preview Extension
+##### Do drop a star ⭐️ keeps me motivated
 
 https://user-images.githubusercontent.com/79325116/212641977-25a8976b-e24f-4c0d-8c49-1e0f17ff5205.mp4
 
@@ -21,6 +22,7 @@ This is an extension for Google Chrome that allows you to preview links on a web
 - Preview links without leaving the page.
 - Customizable styles with CSS
 - CORS proxy for cross-origin issues
+
 
 ## Create own Proxy Server from here
 
