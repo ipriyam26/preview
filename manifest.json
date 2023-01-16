@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "My Preview Extension",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "css": [
+                "styles.css"
+            ]
+        }
+    ],
+
+    "permissions": [
+      
+        "activeTab"
+        
+    ]
+}

@@ -1,0 +1,38 @@
+/* This is injected after a web page loads */
+.description {
+    display:none;
+top: 0;
+left: 0;
+z-index: 33;
+    border-radius: 10px; /* rounded edges */
+    box-shadow: 5px 5px 10px #aaa; 
+    position:absolute;
+    border:1px solid #000;
+    width:500px;
+    height:500px;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+}
+
+.loading-bar {
+  width: 4px;
+  height: 18px;
+  margin: 0 8px;
+  border-radius: 4px;
+  animation: loading 1s ease-in-out infinite;
+}
+
+@keyframes loading {
+  0% {
+    transform: scale(1);
+  }
+  20% {
+    transform: scale(1, 2.5);
+  }
+  40% {
+    transform: scale(1);
+  }
+}
