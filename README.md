@@ -1,5 +1,10 @@
 # My Preview Extension
 
+
+
+https://user-images.githubusercontent.com/79325116/212641977-25a8976b-e24f-4c0d-8c49-1e0f17ff5205.mp4
+
+
 This is an extension for Google Chrome that allows you to preview links on a website without having to leave the page. It uses an iframe to load the preview and a CORS proxy to bypass the CORS policy.
 
 ## Installation
