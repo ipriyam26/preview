@@ -19,12 +19,12 @@ frame.appendChild(loading);
 
 for(let i=0; i<collection.length;i+=1){
   let item = collection[i];
-   let head = item.getElementsByTagName('h3')[0];
-   if (!head){
-continue;
-   }
+//    let head = item.getElementsByTagName('h3')[0];
+//    if (!head){
+// continue;
+//    }
 
-  head.addEventListener("mouseover", function(e) {
+  item.addEventListener("mouseover", function(e) {
     frame.style.display = 'flex';
     frame.src = 'https://proxyserver-c64q.onrender.com?url='+item.href;
     frame.style.left = e.clientX + "px";
