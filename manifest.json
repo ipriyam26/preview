@@ -12,13 +12,11 @@
             ],
             "css": [
                 "styles.css"
-            ]
+            ],
+            "run_at": "document_start"
         }
     ],
-
     "permissions": [
-      
         "activeTab"
-        
     ]
 }
